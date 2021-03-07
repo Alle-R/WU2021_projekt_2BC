@@ -1,0 +1,80 @@
+body {
+    margin: 10px;
+}
+
+header {
+    background-color: black;
+    grid-area: h;
+}
+
+footer {
+    background-color: black;
+    grid-area: f;
+}
+
+/* MOBILE */
+@media screen and (max-width:767px) {
+    #Huvudsidan {
+        background-color: white;
+        display: grid;
+        height: auto;
+        width: auto;
+        grid-auto-columns: auto;
+        grid-template-rows: auto;
+        row-gap:;
+        column-gap:;
+        grid-template-areas:
+        'h'
+        'm'
+        'm'
+        's1'
+        's2'
+        's3'
+        'f'
+        ;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width:1024px) {
+    #Huvudsidan {
+        background-color: white;
+        display: grid;
+        height: auto;
+        width: auto;
+        grid-auto-columns: auto;
+        grid-template-rows: auto;
+        row-gap:;
+        column-gap:;
+        grid-template-areas:
+        'h h h h'
+        'm m m s1'
+        'm m m s1'
+        'm m m s1'
+        'm m m s1'
+        's2 s2 s3 s3'
+        's2 s2 s3 s3'
+        'f f f f'
+        ;
+    }
+}
+
+#Huvudsidan main {
+    background-color: black;
+    grid-area: m;
+}
+
+#Huvudsidan #s1 {
+    background-color: black;
+    grid-area: s1;
+}
+
+#Huvudsidan #s2 {
+    background-color: black;
+    grid-area: s2;
+}
+
+#Huvudsidan #s3 {
+    background-color: black;
+    grid-area: s3;
+}
