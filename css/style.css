@@ -13,16 +13,16 @@ footer {
 }
 
 /* MOBILE */
-@media screen and (max-width:767px) {
+@media screen and (min-width:0px) and (max-width:767px) {
     #Huvudsidan {
         background-color: white;
         display: grid;
-        height: auto;
-        width: auto;
-        grid-auto-columns: auto;
-        grid-template-rows: auto;
-        row-gap:;
-        column-gap:;
+        height: 100vh;
+        width: 100vh;
+        grid-auto-columns:repeat(1, 100vh);
+        grid-template-rows:repeat(7, 10vh);
+        row-gap: 2px;
+        column-gap: 2px;
         grid-template-areas:
         'h'
         'm'
@@ -36,16 +36,16 @@ footer {
 }
 
 /* DESKTOP */
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) and (max-width:2048px) {
     #Huvudsidan {
         background-color: white;
         display: grid;
-        height: auto;
-        width: auto;
-        grid-auto-columns: auto;
-        grid-template-rows: auto;
-        row-gap:;
-        column-gap:;
+        height: 100vh;
+        width: 100vh;
+        grid-auto-columns:repeat(4, 25vh);
+        grid-template-rows:repeat(8, 12vh);
+        row-gap: 2px;
+        column-gap: 2px;
         grid-template-areas:
         'h h h h'
         'm m m s1'
