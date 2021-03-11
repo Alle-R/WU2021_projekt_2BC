@@ -3,26 +3,26 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: yellow;
     grid-area: h;
 }
 
 footer {
-    background-color: black;
+    background-color: yellow;
     grid-area: f;
 }
+
+/*--------------------------------------------------------------------------------------------------------------*/
 
 /* MOBILE */
 @media screen and (min-width:0px) and (max-width:767px) {
     #Huvudsidan {
         background-color: white;
         display: grid;
-        height: 100vh;
-        width: 100vh;
-        grid-auto-columns:repeat(1, 100vh);
-        grid-template-rows:repeat(7, 10vh);
-        row-gap: 2px;
-        column-gap: 2px;
+        grid-template-columns:repeat(1, 58vh);
+        grid-template-rows:repeat(7, 50vh);
+        row-gap: 4px;
+        column-gap: 4px;
         grid-template-areas:
         'h'
         'm'
@@ -40,12 +40,10 @@ footer {
     #Huvudsidan {
         background-color: white;
         display: grid;
-        height: 100vh;
-        width: 100vh;
-        grid-auto-columns:repeat(4, 25vh);
-        grid-template-rows:repeat(8, 12vh);
-        row-gap: 2px;
-        column-gap: 2px;
+        grid-template-columns: repeat(4, 51vh);
+        grid-template-rows: repeat(8, 12vh);
+        row-gap: 4px;
+        column-gap: 4px;
         grid-template-areas:
         'h h h h'
         'm m m s1'
@@ -60,21 +58,301 @@ footer {
 }
 
 #Huvudsidan main {
-    background-color: black;
+    background-color: yellow;
     grid-area: m;
 }
 
 #Huvudsidan #s1 {
-    background-color: black;
+    background-color: yellow;
     grid-area: s1;
 }
 
 #Huvudsidan #s2 {
-    background-color: black;
+    background-color: yellow;
     grid-area: s2;
 }
 
 #Huvudsidan #s3 {
-    background-color: black;
+    background-color: yellow;
     grid-area: s3;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/* MOBILE */
+@media screen and (min-width:0px) and (max-width:767px) {
+    #Försäljningssidan {
+        background-color: white;
+        display: grid;
+        grid-template-columns:repeat(1, 58vh);
+        grid-template-rows:repeat(6, 50vh);
+        row-gap: 4px;
+        column-gap: 4px;
+        grid-template-areas:
+        'h'
+        's1'
+        's2'
+        's3'
+        's4'
+        'f'
+        ;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width:768px) and (max-width:2048px) {
+    #Försäljningssidan {
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 51vh);
+        grid-template-rows: repeat(6, 12vh);
+        row-gap: 4px;
+        column-gap: 4px;
+        grid-template-areas:
+        'h h'
+        's1 s1'
+        's2 s2'
+        's3 s3'
+        's4 s4'
+        'f f'
+        ;
+    }
+}
+
+#Försäljningssidan #s1 {
+    background-color: yellow;
+    grid-area: s1;
+}
+
+#Försäljningssidan #s2 {
+    background-color: yellow;
+    grid-area: s2;
+}
+
+#Försäljningssidan #s3 {
+    background-color: yellow;
+    grid-area: s3;
+}
+
+#Försäljningssidan #s4 {
+    background-color: yellow;
+    grid-area: s4;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/* MOBILE */
+@media screen and (min-width:0px) and (max-width:767px) {
+    #Informationssidan {
+        background-color: white;
+        display: grid;
+        grid-template-columns:repeat(1, 58vh);
+        grid-template-rows:repeat(8, 50vh);
+        row-gap: 4px;
+        column-gap: 4px;
+        grid-template-areas:
+        'h'
+        'ar1'
+        'ar2'
+        'as1'
+        'ar3'
+        'ar4'
+        'as2'
+        'f'
+        ;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width:768px) and (max-width:2048px) {
+    #Informationssidan {
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 51vh);
+        grid-template-rows: repeat(6, 12vh);
+        row-gap: 4px;
+        column-gap: 4px;
+        grid-template-areas:
+        'h h h'
+        'ar1 ar1 as1'
+        'ar2 ar2 as1'
+        'ar3 ar3 as2'
+        'ar4 ar4 as2'
+        'f f f'
+        ;
+    }
+}
+
+#Informationssidan #ar1 {
+    background-color: yellow;
+    grid-area: ar1;
+}
+
+#Informationssidan #ar2 {
+    background-color: yellow;
+    grid-area: ar2;
+}
+
+#Informationssidan #ar3 {
+    background-color: yellow;
+    grid-area: ar3;
+}
+
+#Informationssidan #ar4 {
+    background-color: yellow;
+    grid-area: ar4;
+}
+
+#Informationssidan #as1 {
+    background-color: yellow;
+    grid-area: as1;
+}
+
+#Informationssidan #as2 {
+    background-color: yellow;
+    grid-area: as2;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/* MOBILE */
+@media screen and (min-width:0px) and (max-width:767px) {
+    #Inspirationssidan {
+        background-color: white;
+        display: grid;
+        grid-template-columns:repeat(1, 58vh);
+        grid-template-rows:repeat(10, 50vh);
+        row-gap: 4px;
+        column-gap: 4px;
+        grid-template-areas:
+        'h'
+        'as1'
+        's1'
+        's1'
+        'm'
+        'm'
+        's2'
+        's2'
+        'as2'
+        'f'
+        ;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width:768px) and (max-width:2048px) {
+    #Inspirationssidan {
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 51vh);
+        grid-template-rows: repeat(8, 12vh);
+        row-gap: 4px;
+        column-gap: 4px;
+        grid-template-areas:
+        'h h h'
+        'as1 s1 s1'
+        'as1 s1 s1'
+        'm m m'
+        'm m m'
+        's2 s2 as2'
+        's2 s2 as2'
+        'f f f'
+        ;
+    }
+}
+
+#Inspirationssidan main {
+    background-color: yellow;
+    grid-area: m;
+}
+
+#Inspirationssidan #s1 {
+    background-color: yellow;
+    grid-area: s1;
+}
+
+#Inspirationssidan #s2 {
+    background-color: yellow;
+    grid-area: s2;
+}
+
+#Inspirationssidan #as1 {
+    background-color: yellow;
+    grid-area: as1;
+}
+
+#Inspirationssidan #as2 {
+    background-color: yellow;
+    grid-area: as2;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/* MOBILE */
+@media screen and (min-width:0px) and (max-width:767px) {
+    #Recensionssidan {
+        background-color: white;
+        display: grid;
+        grid-template-columns:repeat(1, 58vh);
+        grid-template-rows:repeat(8, 50vh);
+        row-gap: 4px;
+        column-gap: 4px;
+        grid-template-areas:
+        'h'
+        'd'
+        'd'
+        's1'
+        's2'
+        's3'
+        's4'
+        'f'
+        ;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width:768px) and (max-width:2048px) {
+    #Recensionssidan {
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(4, 51vh);
+        grid-template-rows: repeat(8, 12vh);
+        row-gap: 4px;
+        column-gap: 4px;
+        grid-template-areas:
+        'h h h h'
+        'd d d d'
+        'd d d d'
+        's1 s1 s1 s1'
+        's2 s2 s2 s2'
+        's3 s3 s3 s3'
+        's4 s4 s4 s4'
+        'f f f f'
+        ;
+    }
+}
+
+#Recensionssidan #d {
+    background-color: yellow;
+    grid-area: d;
+}
+
+#Recensionssidan #s1 {
+    background-color: yellow;
+    grid-area: s1;
+}
+
+#Recensionssidan #s2 {
+    background-color: yellow;
+    grid-area: s2;
+}
+
+#Recensionssidan #s3 {
+    background-color: yellow;
+    grid-area: s3;
+}
+
+#Recensionssidan #s4 {
+    background-color: yellow;
+    grid-area: s4;
 }
