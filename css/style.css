@@ -4,7 +4,19 @@ body {
 
 header {
     background-color: yellow;
+    display: flex;
     grid-area: h;
+    grid-template-areas: 
+    'n n n'
+    ;
+}
+
+nav {
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    grid-area: n;
 }
 
 footer {
