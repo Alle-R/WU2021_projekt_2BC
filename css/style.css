@@ -24,6 +24,12 @@ h1 {
     color: white;
 }
 
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: white;
+}
+
 h5 {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 60%;
@@ -161,15 +167,23 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
-        grid-template-rows:repeat(6, 50vh);
-        row-gap: 4px;
-        column-gap: 4px;
+        grid-template-rows:repeat(8, 50vh);
+        row-gap: 0px;
+        column-gap: 0px;
         grid-template-areas:
         'h'
-        's1'
-        's2'
-        's3'
-        's4'
+        'ar1'
+        'ar1'
+        'ar2'
+        'ar2'
+        'ar3'
+        'ar3'
+        'ar4'
+        'ar4'
+        'ar5'
+        'ar5'
+        'ar6'
+        'ar6'
         'f'
         ;
     }
@@ -181,39 +195,50 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns: repeat(2, auto);
-        grid-template-rows: repeat(6, 12vh);
-        row-gap: 4px;
-        column-gap: 4px;
+        grid-template-rows: repeat(8, 25vh);
+        row-gap: 30px;
+        column-gap: 0px;
         grid-template-areas:
         'h h'
-        's1 s1'
-        's2 s2'
-        's3 s3'
-        's4 s4'
+        'ar1 ar2'
+        'ar1 ar2'
+        'ar3 ar4'
+        'ar3 ar4'
+        'ar5 ar6'
+        'ar5 ar6'
         'f f'
         ;
     }
 }
 
-#Försäljningssidan #s1 {
-    background-color: yellow;
-    grid-area: s1;
+#Försäljningssidan #ar1 {
+    grid-area: ar1;
 }
 
-#Försäljningssidan #s2 {
-    background-color: yellow;
-    grid-area: s2;
+#Försäljningssidan #ar2 {
+    grid-area: ar2;
 }
 
-#Försäljningssidan #s3 {
-    background-color: yellow;
-    grid-area: s3;
+#Försäljningssidan #ar3 {
+    grid-area: ar3;
 }
 
-#Försäljningssidan #s4 {
-    background-color: yellow;
-    grid-area: s4;
+#Försäljningssidan #ar4 {
+    grid-area: ar4;
 }
+
+#Försäljningssidan #ar5 {
+    grid-area: ar5;
+}
+
+#Försäljningssidan #ar6 {
+    grid-area: ar6;
+}
+
+#Försäljningssidan img {
+    float: left;
+    padding: 10px;
+  }
 
 /*--------------------------------------------------------------------------------------------------------------*/
 
@@ -224,8 +249,8 @@ footer {
         display: grid;
         grid-template-columns:repeat(1, auto);
         grid-template-rows:repeat(8, 50vh);
-        row-gap: 4px;
-        column-gap: 4px;
+        row-gap: 0px;
+        column-gap: 0px;
         grid-template-areas:
         'h'
         'ar1'
@@ -245,7 +270,7 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(6, 12vh);
+        grid-template-rows: repeat(6, 25vh);
         row-gap: 4px;
         column-gap: 4px;
         grid-template-areas:
@@ -297,19 +322,20 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
-        grid-template-rows:repeat(10, 50vh);
-        row-gap: 4px;
-        column-gap: 4px;
+        grid-template-rows:repeat(11, 50vh);
+        row-gap: 0px;
+        column-gap: 0px;
         grid-template-areas:
         'h'
-        'as1'
-        's1'
-        's1'
-        'm'
-        'm'
-        's2'
-        's2'
-        'as2'
+        'ar1'
+        'ar2'
+        'ar3'
+        'ar4'
+        'ar5'
+        'ar6'
+        'ar7'
+        'ar8'
+        'ar9'
         'f'
         ;
     }
@@ -320,46 +346,55 @@ footer {
     #Inspirationssidan {
         background-color: black;
         display: grid;
-        grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(8, 12vh);
-        row-gap: 4px;
-        column-gap: 4px;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(10, 25vh);
+        row-gap: 0px;
+        column-gap: 0px;
         grid-template-areas:
-        'h h h'
-        'as1 s1 s1'
-        'as1 s1 s1'
-        'm m m'
-        'm m m'
-        's2 s2 as2'
-        's2 s2 as2'
-        'f f f'
+        'h h'
+        'ar1 ar2'
+        'ar1 ar2'
+        'ar3 ar4'
+        'ar3 ar4'
+        'ar5 ar6'
+        'ar5 ar6'
+        'ar7 ar8'
+        'ar7 ar8'
+        'f f'
         ;
     }
 }
 
-#Inspirationssidan main {
-    background-color: yellow;
-    grid-area: m;
+#Inspirationssidan #ar1 {
+    grid-area: ar1;
 }
 
-#Inspirationssidan #s1 {
-    background-color: yellow;
-    grid-area: s1;
+#Inspirationssidan #ar2 {
+    grid-area: ar2;
 }
 
-#Inspirationssidan #s2 {
-    background-color: yellow;
-    grid-area: s2;
+#Inspirationssidan #ar3 {
+    grid-area: ar3;
 }
 
-#Inspirationssidan #as1 {
-    background-color: yellow;
-    grid-area: as1;
+#Inspirationssidan #ar4 {
+    grid-area: ar4;
 }
 
-#Inspirationssidan #as2 {
-    background-color: yellow;
-    grid-area: as2;
+#Inspirationssidan #ar5 {
+    grid-area: ar5;
+}
+
+#Inspirationssidan #ar6 {
+    grid-area: ar6;
+}
+
+#Inspirationssidan #ar7 {
+    grid-area: ar7;
+}
+
+#Inspirationssidan #ar8 {
+    grid-area: ar8;
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -371,8 +406,8 @@ footer {
         display: grid;
         grid-template-columns:repeat(1, auto);
         grid-template-rows:repeat(8, 50vh);
-        row-gap: 4px;
-        column-gap: 4px;
+        row-gap: 0px;
+        column-gap: 0px;
         grid-template-areas:
         'h'
         'd'
@@ -392,7 +427,7 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(8, 12vh);
+        grid-template-rows: repeat(8, 25vh);
         row-gap: 4px;
         column-gap: 4px;
         grid-template-areas:
