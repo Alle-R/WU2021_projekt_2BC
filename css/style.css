@@ -106,7 +106,7 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
-        grid-template-rows:repeat(7, 50vh);
+        grid-template-rows:repeat(7, 30vh);
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
@@ -173,8 +173,8 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
-        grid-template-rows:repeat(8, 50vh);
-        row-gap: 0px;
+        grid-template-rows:repeat(8, 30vh);
+        row-gap: 8px;
         column-gap: 0px;
         grid-template-areas:
         'h'
@@ -254,7 +254,7 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
-        grid-template-rows:repeat(8, 50vh);
+        grid-template-rows:repeat(8, 40vh);
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
@@ -275,49 +275,65 @@ footer {
     #Informationssidan {
         background-color: black;
         display: grid;
-        grid-template-columns: repeat(3, auto);
-        grid-template-rows: repeat(6, 25vh);
-        row-gap: 4px;
-        column-gap: 4px;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(6, 30vh);
+        row-gap: 5px;
+        column-gap: 0px;
         grid-template-areas:
-        'h h h'
-        'ar1 ar1 as1'
-        'ar2 ar2 as1'
-        'ar3 ar3 as2'
-        'ar4 ar4 as2'
-        'f f f'
+        'h h'
+        'as1 ar1'
+        'as1 ar2'
+        'ar3 as2'
+        'ar4 as2'
+        'f f'
         ;
     }
 }
 
 #Informationssidan #ar1 {
-    background-color: yellow;
     grid-area: ar1;
+    border-radius: 40px;
+    padding: 30px;
+    border-style: ridge;
+    border-color: purple;
+    border-width: 10px;
 }
 
 #Informationssidan #ar2 {
-    background-color: yellow;
     grid-area: ar2;
+    border-radius: 40px;
+    padding: 30px;
+    border-style: ridge;
+    border-color: purple;
+    border-width: 10px;
 }
 
 #Informationssidan #ar3 {
-    background-color: yellow;
     grid-area: ar3;
+    border-radius: 40px;
+    padding: 30px;
+    border-style: ridge;
+    border-color: purple;
+    border-width: 10px;
 }
 
 #Informationssidan #ar4 {
-    background-color: yellow;
     grid-area: ar4;
+    border-radius: 40px;
+    padding: 30px;
+    border-style: ridge;
+    border-color: purple;
+    border-width: 10px;
 }
 
 #Informationssidan #as1 {
-    background-color: yellow;
     grid-area: as1;
+    padding: 10px;
 }
 
 #Informationssidan #as2 {
-    background-color: yellow;
     grid-area: as2;
+    padding: 10px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -328,7 +344,7 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
-        grid-template-rows:repeat(11, 50vh);
+        grid-template-rows:repeat(11, 30vh);
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
@@ -411,7 +427,7 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
-        grid-template-rows:repeat(10, 50vh);
+        grid-template-rows:repeat(10, 48vh);
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
