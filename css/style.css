@@ -24,6 +24,12 @@ h1 {
     color: white;
 }
 
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+}
+
 h4 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 100%;
@@ -405,17 +411,19 @@ footer {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
-        grid-template-rows:repeat(8, 50vh);
+        grid-template-rows:repeat(10, 50vh);
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
         'h'
-        'd'
-        'd'
-        's1'
-        's2'
-        's3'
-        's4'
+        'ar1'
+        'ar2'
+        'ar3'
+        'ar4'
+        'ar5'
+        'ar6'
+        'ar7'
+        'ar8'
         'f'
         ;
     }
@@ -426,44 +434,73 @@ footer {
     #Recensionssidan {
         background-color: black;
         display: grid;
-        grid-template-columns: repeat(4, auto);
-        grid-template-rows: repeat(8, 25vh);
-        row-gap: 4px;
-        column-gap: 4px;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(6, 30vh);
+        row-gap: 10px;
+        column-gap: 10px;
         grid-template-areas:
-        'h h h h'
-        'd d d d'
-        'd d d d'
-        's1 s1 s1 s1'
-        's2 s2 s2 s2'
-        's3 s3 s3 s3'
-        's4 s4 s4 s4'
-        'f f f f'
+        'h h'
+        'ar1 ar2'
+        'ar3 ar4'
+        'ar5 ar6'
+        'ar7 ar8'
+        'f f'
         ;
     }
 }
 
-#Recensionssidan #d {
-    background-color: yellow;
-    grid-area: d;
+#Recensionssidan #ar1 {
+    grid-area: ar1;
+    padding: 10px;
+    border-style: ridge;
+    border-color: gold;
 }
 
-#Recensionssidan #s1 {
-    background-color: yellow;
-    grid-area: s1;
+#Recensionssidan #ar2 {
+    grid-area: ar2;
+    padding: 10px;
+    border-style: ridge;
+    border-color: gold;
 }
 
-#Recensionssidan #s2 {
-    background-color: yellow;
-    grid-area: s2;
+#Recensionssidan #ar3 {
+    grid-area: ar3;
+    padding: 10px;
+    border-style: ridge;
+    border-color: gold;
 }
 
-#Recensionssidan #s3 {
-    background-color: yellow;
-    grid-area: s3;
+#Recensionssidan #ar4 {
+    grid-area: ar4;
+    padding: 10px;
+    border-style: ridge;
+    border-color: gold;
 }
 
-#Recensionssidan #s4 {
-    background-color: yellow;
-    grid-area: s4;
+#Recensionssidan #ar5 {
+    grid-area: ar5;
+    padding: 10px;
+    border-style: ridge;
+    border-color: gold;
+}
+
+#Recensionssidan #ar6 {
+    grid-area: ar6;
+    padding: 10px;
+    border-style: ridge;
+    border-color: gold;
+}
+
+#Recensionssidan #ar7 {
+    grid-area: ar7;
+    padding: 10px;
+    border-style: ridge;
+    border-color: gold;
+}
+
+#Recensionssidan #ar8 {
+    grid-area: ar8;
+    padding: 10px;
+    border-style: ridge;
+    border-color: gold;
 }
