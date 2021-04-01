@@ -94,10 +94,6 @@ footer {
     display: block;
 }
 
-.menu-button {
-    display: show;
-}
-
 /*--------------------------------------------------------------------------------------------------------------*/
 
 /* MOBILE */
@@ -169,7 +165,7 @@ footer {
 
 /* MOBILE */
 @media screen and (min-width:0px) and (max-width:767px) {
-    #Försäljningssidan {
+    #Forsaljningssidan {
         background-color: black;
         display: grid;
         grid-template-columns:repeat(1, auto);
@@ -197,13 +193,12 @@ footer {
 
 /* DESKTOP */
 @media screen and (min-width:768px) and (max-width:2048px) {
-    #Försäljningssidan {
+    #Forsaljningssidan {
         background-color: black;
         display: grid;
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(8, 25vh);
         row-gap: 30px;
-        column-gap: 0px;
         grid-template-areas:
         'h h'
         'ar1 ar2'
@@ -217,31 +212,31 @@ footer {
     }
 }
 
-#Försäljningssidan #ar1 {
+#Forsaljningssidan #ar1 {
     grid-area: ar1;
 }
 
-#Försäljningssidan #ar2 {
+#Forsaljningssidan #ar2 {
     grid-area: ar2;
 }
 
-#Försäljningssidan #ar3 {
+#Forsaljningssidan #ar3 {
     grid-area: ar3;
 }
 
-#Försäljningssidan #ar4 {
+#Forsaljningssidan #ar4 {
     grid-area: ar4;
 }
 
-#Försäljningssidan #ar5 {
+#Forsaljningssidan #ar5 {
     grid-area: ar5;
 }
 
-#Försäljningssidan #ar6 {
+#Forsaljningssidan #ar6 {
     grid-area: ar6;
 }
 
-#Försäljningssidan img {
+#Forsaljningssidan img {
     float: left;
     padding: 10px;
   }
