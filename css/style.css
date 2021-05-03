@@ -24,6 +24,15 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline dashed gold;
+    font-size: 25px;
+}
+
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(146, 146, 146);
@@ -139,6 +148,15 @@ footer {
     }
 }
 
+@media screen and (min-width:768px) and (max-width:2048px) {
+    .menu {
+        background: red;
+        border-radius: 30px;
+        border-style: ridge;
+        border-color: gold;
+    }
+}
+
 #Huvudsidan main {
     background-color: black;
     grid-area: m;
@@ -212,6 +230,15 @@ footer {
     }
 }
 
+@media screen and (min-width:768px) and (max-width:2048px) {
+    .menu {
+        background: red;
+        border-radius: 30px;
+        border-style: ridge;
+        border-color: gold;
+    }
+}
+
 #Forsaljningssidan #ar1 {
     grid-area: ar1;
 }
@@ -282,6 +309,15 @@ footer {
         'ar4 as2'
         'f f'
         ;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:2048px) {
+    .menu {
+        background: red;
+        border-radius: 30px;
+        border-style: ridge;
+        border-color: gold;
     }
 }
 
@@ -382,44 +418,57 @@ footer {
     }
 }
 
+@media screen and (min-width:768px) and (max-width:2048px) {
+    .menu {
+        background: red;
+        border-radius: 30px;
+        border-style: ridge;
+        border-color: gold;
+    }
+}
+
 #Inspirationssidan #ar1 {
     grid-area: ar1;
-    padding: 20px;
 }
 
 #Inspirationssidan #ar2 {
     grid-area: ar2;
-    padding: 20px;
 }
 
 #Inspirationssidan #ar3 {
     grid-area: ar3;
-    padding: 20px;
 }
 
 #Inspirationssidan #ar4 {
     grid-area: ar4;
-    padding: 20px;
 }
 
 #Inspirationssidan #ar5 {
     grid-area: ar5;
-    padding: 20px;
 }
 
 #Inspirationssidan #ar6 {
     grid-area: ar6;
-    padding: 20px;
 }
 
 #Inspirationssidan #ar7 {
     grid-area: ar7;
-    padding: 20px;
+    color: white;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
 }
 
 #Inspirationssidan #ar8 {
     grid-area: ar8;
-    padding: 20px;
+    color: white;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -465,6 +514,15 @@ footer {
         'ar7 ar8'
         'f f'
         ;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:2048px) {
+    .menu {
+        background: red;
+        border-radius: 30px;
+        border-style: ridge;
+        border-color: gold;
     }
 }
 
