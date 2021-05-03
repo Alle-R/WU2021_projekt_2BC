@@ -384,34 +384,42 @@ footer {
 
 #Inspirationssidan #ar1 {
     grid-area: ar1;
+    padding: 20px;
 }
 
 #Inspirationssidan #ar2 {
     grid-area: ar2;
+    padding: 20px;
 }
 
 #Inspirationssidan #ar3 {
     grid-area: ar3;
+    padding: 20px;
 }
 
 #Inspirationssidan #ar4 {
     grid-area: ar4;
+    padding: 20px;
 }
 
 #Inspirationssidan #ar5 {
     grid-area: ar5;
+    padding: 20px;
 }
 
 #Inspirationssidan #ar6 {
     grid-area: ar6;
+    padding: 20px;
 }
 
 #Inspirationssidan #ar7 {
     grid-area: ar7;
+    padding: 20px;
 }
 
 #Inspirationssidan #ar8 {
     grid-area: ar8;
+    padding: 20px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
