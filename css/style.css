@@ -1,18 +1,18 @@
 body {
     margin: 0px;
+    background-color: black;
 }
 
-header {
+#he1 {
     background-image: url(/img/HeaderWebb.jpg);
-    background-size: 210vh 30vh;
-    grid-area: h;
+    background-size: 210vh 100%;
+    grid-area: he1;
 }
 
-nav {
-    grid-area: n;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#he2 {
+    background-image: url(/img/HeaderWebb.jpg);
+    background-size: 210vh 100%;
+    grid-area: he2;
 }
 
 h1 {
@@ -115,7 +115,7 @@ footer {
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
-        'h'
+        'he1'
         'm'
         'm'
         's1'
@@ -123,6 +123,12 @@ footer {
         's3'
         'f'
         ;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    #he2 {
+        display: none;
     }
 }
 
@@ -136,7 +142,7 @@ footer {
         row-gap: 8px;
         column-gap: 0px;
         grid-template-areas:
-        'h h h h'
+        'he2 he2 he2 he2'
         'm m m s1'
         'm m m s1'
         'm m m s1'
@@ -149,11 +155,13 @@ footer {
 }
 
 @media screen and (min-width:768px) and (max-width:2048px) {
-    .menu {
-        background: red;
-        border-radius: 30px;
-        border-style: ridge;
-        border-color: gold;
+    #he1 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: black;
     }
 }
 
@@ -191,7 +199,7 @@ footer {
         row-gap: 8px;
         column-gap: 0px;
         grid-template-areas:
-        'h'
+        'he1'
         'ar1'
         'ar1'
         'ar2'
@@ -209,6 +217,12 @@ footer {
     }
 }
 
+@media screen and (min-width:0px) and (max-width:767px) {
+    #he2 {
+        display: none;
+    }
+}
+
 /* DESKTOP */
 @media screen and (min-width:768px) and (max-width:2048px) {
     #Forsaljningssidan {
@@ -218,7 +232,7 @@ footer {
         grid-template-rows: repeat(8, 25vh);
         row-gap: 30px;
         grid-template-areas:
-        'h h'
+        'he2 he2'
         'ar1 ar2'
         'ar1 ar2'
         'ar3 ar4'
@@ -231,11 +245,13 @@ footer {
 }
 
 @media screen and (min-width:768px) and (max-width:2048px) {
-    .menu {
-        background: red;
-        border-radius: 30px;
-        border-style: ridge;
-        border-color: gold;
+    #he1 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: black;
     }
 }
 
@@ -280,7 +296,7 @@ footer {
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
-        'h'
+        'he1'
         'ar1'
         'ar2'
         'as1'
@@ -289,6 +305,12 @@ footer {
         'as2'
         'f'
         ;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    #he2 {
+        display: none;
     }
 }
 
@@ -302,7 +324,7 @@ footer {
         row-gap: 5px;
         column-gap: 0px;
         grid-template-areas:
-        'h h'
+        'he2 he2'
         'as1 ar1'
         'as1 ar2'
         'ar3 as2'
@@ -313,11 +335,13 @@ footer {
 }
 
 @media screen and (min-width:768px) and (max-width:2048px) {
-    .menu {
-        background: red;
-        border-radius: 30px;
-        border-style: ridge;
-        border-color: gold;
+    #he1 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: black;
     }
 }
 
@@ -379,7 +403,7 @@ footer {
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
-        'h'
+        'he1'
         'ar1'
         'ar2'
         'ar3'
@@ -394,6 +418,12 @@ footer {
     }
 }
 
+@media screen and (min-width:0px) and (max-width:767px) {
+    #he2 {
+        display: none;
+    }
+}
+
 /* DESKTOP */
 @media screen and (min-width:768px) and (max-width:2048px) {
     #Inspirationssidan {
@@ -404,7 +434,7 @@ footer {
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
-        'h h'
+        'he2 he2'
         'ar1 ar2'
         'ar1 ar2'
         'ar3 ar4'
@@ -419,11 +449,13 @@ footer {
 }
 
 @media screen and (min-width:768px) and (max-width:2048px) {
-    .menu {
-        background: red;
-        border-radius: 30px;
-        border-style: ridge;
-        border-color: gold;
+    #he1 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: black;
     }
 }
 
@@ -483,7 +515,7 @@ footer {
         row-gap: 0px;
         column-gap: 0px;
         grid-template-areas:
-        'h'
+        'he1'
         'ar1'
         'ar2'
         'ar3'
@@ -497,6 +529,12 @@ footer {
     }
 }
 
+@media screen and (min-width:0px) and (max-width:767px) {
+    #he2 {
+        display: none;
+    }
+}
+
 /* DESKTOP */
 @media screen and (min-width:768px) and (max-width:2048px) {
     #Recensionssidan {
@@ -507,7 +545,7 @@ footer {
         row-gap: 10px;
         column-gap: 10px;
         grid-template-areas:
-        'h h'
+        'he2 he2'
         'ar1 ar2'
         'ar3 ar4'
         'ar5 ar6'
@@ -518,11 +556,13 @@ footer {
 }
 
 @media screen and (min-width:768px) and (max-width:2048px) {
-    .menu {
-        background: red;
-        border-radius: 30px;
-        border-style: ridge;
-        border-color: gold;
+    #he1 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: black;
     }
 }
 
